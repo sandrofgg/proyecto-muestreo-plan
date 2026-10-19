@@ -1,0 +1,203 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish]{babel}
+\usepackage[margin=2.54cm]{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage[table]{xcolor}
+
+% Configuración visual de títulos
+\titleformat{\section}{\Large\bfseries\color{blue!60!black}}{\thesection.}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{black!80}}{\thesubsection.}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection.}{1em}{}
+
+% Comandos personalizados para Objetivos y Resultados solicitados por el profesor
+\newcommand{\objetivo}[1]{\noindent\textbf{\textcolor{blue!60!black}{Objetivo:}} #1\par\vspace{0.1cm}}
+\newcommand{\resultado}[1]{\noindent\textbf{\textcolor{green!50!black}{Resultado esperado:}} #1\par\vspace{0.4cm}}
+
+\begin{document}
+
+% --------------------------------------------------------
+% PORTADA (Corrigiendo: "No hay título del proyecto")
+% --------------------------------------------------------
+\begin{titlepage}
+    \centering
+    \vspace*{3cm}
+    {\Huge \textbf{Plan de Investigación: \\ Industria Pesquera y de Procesamiento de Productos del Mar} \par}
+    \vspace{1.5cm}
+    {\Large \textbf{Asignatura:} Investigación por Muestreo \par}
+    \vspace{0.5cm}
+    {\Large \textbf{Autores:} Sandro Guevara \par}
+    \vspace{2.5cm}
+  
+    \vfill
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+% --------------------------------------------------------
+% CAPÍTULO 1
+% --------------------------------------------------------
+\section{Descripción de la Industria Pesquera}
+\objetivo{Investigar y categorizar los fundamentos operativos, logísticos y comerciales que rigen a las industrias de captura y procesamiento de productos del mar a nivel general.}
+\resultado{Un perfil detallado del sector que identifique su propósito, oferta comercial, entorno competitivo y los actores que intervienen en su cadena de valor.}
+
+\subsection{Características Generales de la Industria}
+\objetivo{Investigar y delimitar el marco institucional, productivo y estratégico que define la identidad operativa de las plantas industriales pesqueras.}
+\resultado{Un diagnóstico situacional estructurado acerca de la naturaleza de la industria, sus productos principales y el comportamiento de su mercado.}
+
+\subsubsection{Naturaleza, Razón y Propósito}
+La industria pesquera tiene como propósito fundamental la extracción de recursos hidrobiológicos (pesca extractiva) y su posterior transformación termo-mecánica o química para el consumo humano e industrial. Su razón de ser radica en garantizar el suministro de proteína marina de alta calidad a mercados globales, así como proveer materias primas esenciales (harina y aceite de pescado) para sustentar la cadena alimenticia del sector agropecuario y acuícola a nivel mundial.
+
+\subsubsection{Productos y Líneas de Producción}
+La investigación levantará información sobre las principales líneas de salida de estas plantas industriales, típicamente ramificadas en:
+\begin{itemize}[noitemsep]
+    \item \textbf{Línea de Congelados (IQF):} Pescado entero, lomos o filetes sometidos a túneles de congelación rápida individual para exportación marítima.
+    \item \textbf{Línea de Conservas:} Productos cárnicos marinos cocidos y sellados herméticamente (enlatados y \textit{pouches}) con tratamientos de esterilización que garantizan la inocuidad sin necesidad de cadena de frío.
+    \item \textbf{Línea de Reducción (Consumo indirecto):} Subproductos derivados del fileteo y especies pelágicas menores transformadas en harina y aceite industrial.
+\end{itemize}
+
+\subsubsection{Clientes y Canales de Distribución}
+Se investigará la segmentación de la demanda de esta industria:
+\begin{itemize}[noitemsep]
+    \item \textbf{Mercado B2B (Industrial y Mayorista):} Fábricas de alimento balanceado, marcas internacionales que subcontratan procesos (maquila), y grandes mayoristas que adquieren el producto por contenedores.
+    \item \textbf{Mercado B2C (Consumo Final a través de \textit{Retail}):} Cadenas de supermercados que exigen altos estándares de presentación, gramaje exacto y etiquetado nutricional para distribución directa al consumidor.
+\end{itemize}
+
+\subsubsection{Estructura de Competencia y Proveedores}
+Se indagará en la vulnerabilidad de la cadena de suministro y la fuerte regulación competitiva del sector:
+\begin{itemize}[noitemsep]
+    \item \textbf{Proveedores Críticos:} Astilleros navales (mantenimiento de flota), industrias petroquímicas (combustible y amoníaco), fábricas de envases de hojalata y proveedores de redes de cerco.
+    \item \textbf{Competencia y Entorno Legal:} La competencia no solo está dictada por precios, sino por el acceso a la materia prima limitado por \textbf{cuotas de captura} y \textbf{vedas biológicas} dictaminadas por las autoridades gubernamentales. Se investigará el cumplimiento de normativas de salubridad y trazabilidad internacional.
+\end{itemize}
+
+% --------------------------------------------------------
+% CAPÍTULO 2
+% --------------------------------------------------------
+\section{Procesos Sistémicos de la Industria }
+\objetivo{Descomponer la cadena de valor de la industria en sus fases de transformación para entender cómo fluyen la materia prima y la información a través del sistema.}
+\resultado{Un mapa técnico descriptivo que identifique las entradas, las fases de transformación, las salidas y los mecanismos de retroalimentación de la planta industrial.}
+
+\subsection{El Proceso de Transformación}
+\objetivo{Mapear analíticamente la secuencia física que atraviesan los recursos marinos desde su descarga en muelle hasta su consolidación en bodega térmica.}
+\resultado{Un esquema teórico del flujo operativo estándar, identificando los puntos donde la materia prima sufre cambios físicos, químicos o térmicos.}
+
+\subsubsection{Entradas y Recursos }
+Se investigará la matriz de insumos sin los cuales la industria detiene sus operaciones:
+\begin{itemize}[noitemsep]
+    \item \textbf{Materia Prima Biológica:} Captura marina fresca o congelada en salmuera. Su calidad de entrada condiciona todo el sistema.
+    \item \textbf{Insumos Físicos e Industriales:} Hielo en escamas, volúmenes masivos de agua purificada, y materiales de empaque con grado alimenticio.
+    \item \textbf{Recursos Energéticos:} Energía eléctrica trifásica indispensable para sostener las cámaras frigoríficas y vapor de calderas usado en los procesos térmicos.
+\end{itemize}
+
+\subsubsection{Fases de Producción }
+El plan investigará cómo ocurren las transformaciones clave dentro de la nave industrial:
+\begin{enumerate}[noitemsep]
+    \item \textbf{Recepción y Clasificación:} Descarga controlada, lavado, separación por tallas y evaluación organoléptica inicial antes del ingreso a planta.
+    \item \textbf{Acondicionamiento (Eviscerado y Corte):} Retiro de elementos no comerciales (vísceras, espinas, escamas) mediante procesos mecánicos o manuales en ambientes climatizados para evitar proliferación bacteriana.
+    \item \textbf{Transformación Térmica:} Aplicación de curvas de temperatura. Dependiendo de la línea, la carne ingresa a cocedores de vapor continuo o a túneles de congelación extrema.
+    \item \textbf{Empaque y Sellado:} Inserción del producto procesado en sus contenedores finales, garantizando el peso drenado y el vacío hermético para su protección oxidativa.
+\end{enumerate}
+
+\subsubsection{Salidas y Retroalimentación }
+Se estudiará cómo la industria mide su éxito y utiliza la información para corregir errores:
+\begin{itemize}[noitemsep]
+    \item \textbf{Salidas Físicas:} Lotes de productos aptos para consumo, subproductos aprovechables, y efluentes industriales que requieren tratamiento de aguas.
+    \item \textbf{Bucle de Retroalimentación Interno:} Mecanismos de comunicación en planta. Por ejemplo, si control de calidad detecta mermas excesivas en el área de corte, se retroalimenta inmediatamente a los operarios para ajustar la técnica.
+    \item \textbf{Bucle de Retroalimentación Externo:} Evaluación post-venta. Reclamos de clientes por rechazos en puerto (ej. pérdida de cadena de frío) obligan a la industria a auditar retrospectivamente a sus empresas de transporte naviero.
+\end{itemize}
+
+\subsection{Fases de Ejecución del Plan}
+\objetivo{Estructurar una hoja de ruta metodológica y no invasiva para la recopilación exhaustiva de datos operativos, comerciales y normativos del sector pesquero.}
+\resultado{Un cronograma de investigación puramente analítico que culmine en la identificación y parametrización de las variables críticas del sistema industrial.}
+
+Para comprender a la industria en su totalidad sin intervenir en sus operaciones, el equipo ejecutará las siguientes fases de investigación pura:
+
+\begin{itemize}
+    \item \textbf{Fase 1: Revisión del Ecosistema Normativo y Estructural.}
+    \begin{itemize}[noitemsep, label=-]
+        \item Identificación de regulaciones gubernamentales restrictivas (leyes de pesca, períodos de veda, cuotas de captura por especie).
+        \item Auditoría teórica de estándares internacionales de calidad y trazabilidad exigidos para exportación (HACCP, ISO 22000, normativas de la FAO).
+        \item Análisis de organigramas tipo de la industria para mapear la jerarquía departamental (flota, planta, mantenimiento, aseguramiento de calidad).
+    \end{itemize}
+
+    \item \textbf{Fase 2: Levantamiento Analítico del Proceso de Transformación.}
+    \begin{itemize}[noitemsep, label=-]
+        \item Desglose secuencial de las operaciones térmicas y mecánicas (recepción, eviscerado, cocción, túneles de congelación) mediante diagramas de flujo de procesos (PFD).
+        \item Catalogación técnica de la maquinaria industrial crítica (autoclaves, selladoras al vacío, sistemas de refrigeración por amoníaco).
+        \item Mapeo teórico de los tiempos de ciclo y cuellos de botella característicos en la manipulación de materia prima perecedera.
+    \end{itemize}
+
+    \item \textbf{Fase 3: Mapeo de la Cadena de Suministro y Red Comercial.}
+    \begin{itemize}[noitemsep, label=-]
+        \item Rastreo documentado de los nodos de abastecimiento (\textit{upstream}): proveedores de diésel marino, mantenimiento de astilleros, hielo industrial y bobinas de hojalata/plástico.
+        \item Identificación de los canales de distribución (\textit{downstream}): dinámica B2B con brokers de exportación y B2C con cadenas de supermercados, apoyándose en bases de datos aduaneras y registros comerciales.
+    \end{itemize}
+
+    \item \textbf{Fase 4: Parametrización de Variables y Consolidación Documental.}
+    \begin{itemize}[noitemsep, label=-]
+        \item Traducción de los procesos físicos investigados en elementos estadísticos, separando las variables del sistema en continuas (ej. temperatura de conservación, peso drenado) y discretas (ej. número de latas abolladas, defectos de sellado).
+        \item Integración de los hallazgos en un documento marco que defina el universo poblacional, sirviendo como base teórica exacta para diseñar futuros modelos de muestreo.
+    \end{itemize}
+
+
+    
+ % --------------------------------------------------------
+% CRONOGRAMA NO LINEAL
+% --------------------------------------------------------
+\vspace{0.5cm}
+\noindent \textbf{Cronograma de Trabajo Concurrente (No Lineal)} \\
+El siguiente cronograma se diseña bajo un enfoque de ejecución concurrente. A diferencia de un modelo lineal puro en cascada, las actividades se superponen temporalmente para optimizar el tiempo de recopilación de información en campo y el cruce de datos.
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{7.5cm}|c|c|c|c|c|}
+\hline
+\textbf{Actividad de Investigación} & \textbf{Sem 1} & \textbf{Sem 2} & \textbf{Sem 3} & \textbf{Sem 4} & \textbf{Sem 5} \\ \hline
+Fase 1: Revisión Normativa y Estructural & \cellcolor{blue!20}X & \cellcolor{blue!20}X & & & \\ \hline
+Fase 2: Levantamiento Analítico del Proceso & & \cellcolor{green!20}X & \cellcolor{green!20}X & \cellcolor{green!20}X & \\ \hline
+Fase 3: Mapeo de la Cadena y Red Comercial & \cellcolor{orange!20}X & \cellcolor{orange!20}X & \cellcolor{orange!20}X & & \\ \hline
+Fase 4: Parametrización y Documento Final & & & & \cellcolor{red!20}X & \cellcolor{red!20}X \\ \hline
+\end{tabular}
+\end{table}
+
+% --------------------------------------------------------
+% WEBGRAFÍA Y REFERENCIAS
+% --------------------------------------------------------
+
+\renewcommand{\refname}{Webgrafía y Referencias}
+\begin{thebibliography}{9}
+
+\bibitem{fao2022} 
+Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (2022). 
+\textit{El estado mundial de la pesca y la acuicultura: Hacia la transformación azul}. Recuperado de: \url{https://www.fao.org/fishery/es}
+
+\bibitem{iso22000} 
+Organización Internacional de Normalización (ISO). (2018). 
+\textit{ISO 22000:2018 Sistemas de gestión de la inocuidad de los alimentos}. Recuperado de: \url{https://www.iso.org/standard/65464.html}
+
+
+\bibitem{montgomery2019} 
+Montgomery, D. C. (2019). 
+\textit{Control estadístico de la calidad} (7ma ed.). Limusa Wiley. (Referencia base para la futura estructuración del muestreo de las variables).
+
+\bibitem{bertalanffy} 
+Von Bertalanffy, L. (1989). 
+\textit{Teoría General de los Sistemas: Fundamentos, desarrollo, aplicaciones}. Fondo de Cultura Económica.
+
+\end{thebibliography}   
+    
+    
+    
+\end{itemize}
+
+
+
+
+\end{document}
